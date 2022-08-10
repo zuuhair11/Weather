@@ -63,12 +63,10 @@ h1.temp {
 }
 
 .box {
-    width: 60px;
-    height: 180px;
-    /* background-color: aqua; */
-    float: right;
-    margin-top: -180px;
-    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
