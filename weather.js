@@ -18,8 +18,8 @@ class Weather {
         return data
     }
 
-    changeCity(city) {
-        this.city = city;
+    changeCity(newCity) {
+        this.city = newCity;
     }
 
 

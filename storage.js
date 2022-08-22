@@ -7,7 +7,7 @@ class Storage {
 
 
     getCity() {
-        if(localStorage.getItem('city' === null)) {
+        if(localStorage.getItem('city') === null) {
             this.city = this.defaulteCity;
 
         } else {
